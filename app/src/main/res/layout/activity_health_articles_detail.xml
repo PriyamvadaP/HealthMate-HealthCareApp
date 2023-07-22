@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pxfuel"
+    tools:context=".HealthArticlesDetailActivity">
+
+    <TextView
+        android:id="@+id/textView_logo3"
+        android:layout_width="166dp"
+        android:layout_height="34dp"
+
+        android:layout_marginTop="40dp"
+        android:text="Health Mate"
+        android:textAlignment="center"
+        android:textColor="#210463"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textViewBMtitle"
+        android:layout_width="314dp"
+        android:layout_height="30dp"
+
+
+        android:text="DENTIST"
+        android:textAlignment="center"
+        android:textColor="#D10A21"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:fontFamily="sans-serif-black"
+        app:layout_constraintBottom_toTopOf="@+id/imageviewHAD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_logo3"
+        app:layout_constraintVertical_bias="0.318" />
+
+    <ImageView
+        android:id="@+id/imageviewHAD"
+        android:layout_width="358dp"
+        android:layout_height="526dp"
+        android:layout_margin="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.606"
+        tools:ignore="MissingConstraints"
+        tools:srcCompat="@drawable/health1" />
+
+    <Button
+        android:id="@+id/buttonBMBack"
+        android:layout_width="140dp"
+        android:layout_height="45dp"
+        android:background="@drawable/btn_bg"
+        android:text="BACK"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:backgroundTint="#040F51"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
